@@ -4,7 +4,5 @@
 
 print("\n\t.:SUMA DE NUMEROS::.")
 numero = int(input("Ingrese un número: "))
-suma = 0
-for i in range(1,numero+1):
-    suma = suma + i
-print(f"La suma de 1 a {numero} es: {suma}\n")
+suma = int(numero*(numero+1)/2)
+print(f"La suma del 1 al {numero} es: {suma}\n")
