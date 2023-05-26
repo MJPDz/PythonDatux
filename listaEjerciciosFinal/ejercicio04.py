@@ -16,3 +16,12 @@ valor_filtro = "Frutas"
 
 df_filtrado = filtrar_archivo(dataframe, columna_filtro, valor_filtro)
 print(df_filtrado)
+
+
+'''
+Formato del excel:
+Categoría  Precio  Cantidad
+Frutas     10      5
+Verduras   5       8
+Carnes     15      3
+'''
